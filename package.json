@@ -1,0 +1,43 @@
+{
+  "name": "publicalerts",
+  "version": "0.1.0",
+  "description": "Public Alerts module can be used for obtaining emergency messages about hurricanes, storm warnings and earthquakes.",
+  "keywords": [
+    "public",
+    "alerts",
+    "warning",
+    "emergency",
+    "hurricane",
+    "storm",
+    "earthquake"
+  ],
+  "homepage": "http://github.com/cmfatih/publicalerts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmfatih/publicalerts.git"
+  },
+  "bugs": {
+    "url": "http://github.com/cmfatih/publicalerts/issues"
+  },
+  "license": "MIT",
+  "private": false,
+  "author": {
+    "name": "cmfatih",
+    "url": "http://github.com/cmfatih"
+  },
+  "contributors": [],
+  "main": "lib/publicalerts.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --reporter spec test/test-all.js"
+  },
+  "engines": [
+    "node >= 0.10.22"
+  ],
+  "dependencies": {
+    "request": "2.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
+}
