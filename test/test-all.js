@@ -9,17 +9,15 @@ var publicalerts = require('../'),
 
 // Tests
 
-// Test for publicalerts module
+// Test for the module
 describe('publicalerts', function() {
 
   // Test for search
   describe('search()', function() {
+
     it('should get information', function(done) {
       publicalerts.search({location: 'texas'}, function(err, result) {
-        if(err) {
-          done(err);
-          return;
-        }
+        if(err) return done(err);
 
         expect(err).to.be.equal(undefined);
 
