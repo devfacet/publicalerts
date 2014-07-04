@@ -1,10 +1,8 @@
 ## Public Alerts
+[![NPM][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 [publicalerts](http://github.com/cmfatih/publicalerts) is a Node.js module for 
 obtaining emergency messages about hurricanes, storm warnings and earthquakes.  
-
-[![Build Status][travis-image]][travis-url] | [![NPM][npm-image]][npm-url]
----------- | ----------
 
 ### Installation
 
@@ -111,7 +109,6 @@ For all notable changes see [CHANGELOG.md](https://github.com/cmfatih/publicaler
 
 ### License
 
-Copyright (c) 2014 Fatih Cetinkaya (http://github.com/cmfatih/publicalerts)  
 Licensed under The MIT License (MIT)  
 For the full copyright and license information, please view the LICENSE.txt file.
 
