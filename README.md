@@ -1,29 +1,17 @@
 ## Public Alerts
+
 [![NPM][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
-[publicalerts](http://github.com/cmfatih/publicalerts) is a Node.js module for 
-obtaining emergency messages about hurricanes, storm warnings and earthquakes.  
+Public Alerts is a module for obtaining emergency messages about hurricanes,
+storm warnings and earthquakes.
 
 ### Installation
 
-For latest release
 ```
 npm install publicalerts
 ```
 
-For HEAD
-```
-git clone https://github.com/cmfatih/publicalerts.git
-```
-
 ### Usage
-
-#### Test
-```
-npm test
-```
-
-#### Examples
 
 ```javascript
 var publicalerts = require('publicalerts');
@@ -102,10 +90,6 @@ publicalerts.search({location: 'texas'}, function(err, result) {
 ### Notes
 
 * It uses `www.google.org/publicalerts/`
-
-### Changelog
-
-For all notable changes see [CHANGELOG.md](https://github.com/cmfatih/publicalerts/blob/master/CHANGELOG.md)
 
 ### License
 
