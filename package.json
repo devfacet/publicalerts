@@ -1,6 +1,6 @@
 {
   "name": "publicalerts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Public Alerts is a module for obtaining emergency messages about hurricanes, storm warnings and earthquakes.",
   "keywords": [
     "public",
