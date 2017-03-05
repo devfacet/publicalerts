@@ -1,13 +1,13 @@
-## Changelog
+# Changelog
 
-### 1.0.1 (2015-03-15)
+## 1.0.1 (2015-03-15)
 
-* Misc. updates
+- Misc. updates
 
-### 1.0.0 (2014-07-04)
+## 1.0.0 (2014-07-04)
 
-* Stable release
+- Stable release
 
-### 0.1.0 (2014-06-12)
+## 0.1.0 (2014-06-12)
 
-* Initial release
+- Initial release

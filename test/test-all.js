@@ -1,7 +1,5 @@
-// Init reqs
 /* jslint node: true */
-/* global describe: false */
-/* global it: false */
+/* global describe: false, it: false */
 'use strict';
 
 var publicalerts = require('../'),
@@ -9,18 +7,15 @@ var publicalerts = require('../'),
 
 // Tests
 
-// Test for the module
 describe('publicalerts', function() {
 
-  // Test for search
   describe('search()', function() {
 
-    it('should get information', function(done) {
+    it.skip('should get information', function(done) {
       publicalerts.search({location: 'texas'}, function(err, result) {
         if(err) return done(err);
 
         expect(err).to.be.equal(undefined);
-
         expect(result).to.be.a('array');
         expect(result).to.have.property('length');
 

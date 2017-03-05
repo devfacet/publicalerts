@@ -1,18 +1,15 @@
 /*
  * Public Alerts
- * Copyright (c) 2014 Fatih Cetinkaya (http://github.com/cmfatih/publicalerts)
  * For the full copyright and license information, please view the LICENSE.txt file.
  */
 
-// Init reqs
 /* jslint node: true */
 'use strict';
 
-var request = require('request'),
-    qs      = require('querystring');
+var request = require('request');
 
 // Init the module
-exports = module.exports = function() {
+module.exports = function() {
 
   var defTimeout  = 10000,
       defLocation = 'US',

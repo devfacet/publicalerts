@@ -1,17 +1,17 @@
-## Public Alerts
+# Public Alerts
 
 [![NPM][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 Public Alerts is a module for obtaining emergency messages about hurricanes,
 storm warnings and earthquakes.
 
-### Installation
+## Installation
 
-```
+```bash
 npm install publicalerts
 ```
 
-### Usage
+## Usage
 
 ```javascript
 var publicalerts = require('publicalerts');
@@ -87,17 +87,17 @@ publicalerts.search({location: 'texas'}, function(err, result) {
 */
 ```
 
-### Notes
+## Notes
 
 * It uses `www.google.org/publicalerts/`
 
-### License
+## License
 
 Licensed under The MIT License (MIT)  
 For the full copyright and license information, please view the LICENSE.txt file.
 
 [npm-url]: http://npmjs.org/package/publicalerts
-[npm-image]: https://badge.fury.io/js/publicalerts.png
+[npm-image]: https://badge.fury.io/js/publicalerts.svg
 
-[travis-url]: https://travis-ci.org/cmfatih/publicalerts
-[travis-image]: https://travis-ci.org/cmfatih/publicalerts.svg?branch=master
+[travis-url]: https://travis-ci.org/devfacet/publicalerts
+[travis-image]: https://travis-ci.org/devfacet/publicalerts.svg?branch=master

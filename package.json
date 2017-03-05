@@ -1,7 +1,15 @@
 {
   "name": "publicalerts",
   "version": "1.0.1",
-  "description": "Public Alerts is a module for obtaining emergency messages about hurricanes, storm warnings and earthquakes.",
+  "description": "A module for obtaining emergency messages about hurricanes, storm warnings and earthquakes",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --reporter spec test/test-all.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devfacet/publicalerts.git"
+  },
   "keywords": [
     "public",
     "alerts",
@@ -11,33 +19,14 @@
     "storm",
     "earthquake"
   ],
-  "homepage": "http://github.com/cmfatih/publicalerts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cmfatih/publicalerts.git"
-  },
-  "bugs": {
-    "url": "http://github.com/cmfatih/publicalerts/issues"
-  },
+  "author": "devfacet",
   "license": "MIT",
-  "private": false,
-  "author": {
-    "name": "cmfatih",
-    "url": "http://github.com/cmfatih"
-  },
-  "contributors": [],
-  "main": "lib/publicalerts.js",
-  "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --reporter spec test/test-all.js"
-  },
-  "engines": [
-    "node >= 0.10.0"
-  ],
+  "homepage": "http://github.com/devfacet/publicalerts",
   "dependencies": {
-    "request": "2.x"
+    "request": "2.x.x"
   },
   "devDependencies": {
-    "mocha": "2.2.x",
-    "chai": "2.1.x"
+    "mocha": "3.2.x",
+    "chai": "3.5.x"
   }
 }
