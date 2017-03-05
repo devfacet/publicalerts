@@ -1,6 +1,6 @@
 {
   "name": "publicalerts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A module for obtaining emergency messages about hurricanes, storm warnings and earthquakes",
   "main": "index.js",
   "scripts": {
